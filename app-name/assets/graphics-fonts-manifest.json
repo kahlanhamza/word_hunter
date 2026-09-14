@@ -1,0 +1,74 @@
+{
+  "generator": "scripts/extract-assets.mjs",
+  "source": "../outputs/app-name-ui.html",
+  "sourceSha256": "2df1999915a2792600a29adf2f2967cdb94f3f917cdf465a785d019f74ae8274",
+  "fontCssSource": "https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&family=Titan+One&display=swap",
+  "files": [
+    {
+      "file": "assets/art/mascot.svg",
+      "bytes": 4346,
+      "sha256": "3c6fa2c9047e1e3c55a7cec66bb731a4fcc3922ccd2f4cb42879bf9fd27ab9fb",
+      "source": "../outputs/app-name-ui.html#mascot"
+    },
+    {
+      "file": "assets/art/classic-art.svg",
+      "bytes": 727,
+      "sha256": "c1b7bb9355f729fd8bacf0a6f62dddd50e79f92cb42d80b2a47d9ab3bf7bbeaa",
+      "source": "../outputs/app-name-ui.html#classic-art"
+    },
+    {
+      "file": "assets/art/time-art.svg",
+      "bytes": 962,
+      "sha256": "54e618e1b45408d082a995018866d7b993a9d21d3ac61302e1125b33464123e8",
+      "source": "../outputs/app-name-ui.html#time-art"
+    },
+    {
+      "file": "assets/art/trophy.svg",
+      "bytes": 2271,
+      "sha256": "8f675f3b4b0c136b478355b47e67b57321c2b89e60d42a53fddbd79afbf1a5c2",
+      "source": "../outputs/app-name-ui.html#trophy"
+    },
+    {
+      "file": "assets/art/coin.svg",
+      "bytes": 646,
+      "sha256": "3d462a4eb999ae9c4c25223fc0338461058cb3caa4347d2dccc388ad7a646971",
+      "source": "../outputs/app-name-ui.html#coin"
+    },
+    {
+      "file": "assets/fonts/Nunito-Bold.ttf",
+      "bytes": 125464,
+      "sha256": "1a025dfce6e6e03bbe31ba82277ec5ed96df8b8dd58b3df6267269490b90b1dc",
+      "source": "https://fonts.gstatic.com/s/nunito/v32/XRXI3I6Li01BKofiOc5wtlZ2di8HDFwmRTM.ttf"
+    },
+    {
+      "file": "assets/fonts/Nunito-ExtraBold.ttf",
+      "bytes": 125416,
+      "sha256": "c5776505c7b3df3c3ca763477b795d6bbc6517760bede0462ab77d1fb44954a6",
+      "source": "https://fonts.gstatic.com/s/nunito/v32/XRXI3I6Li01BKofiOc5wtlZ2di8HDDsmRTM.ttf"
+    },
+    {
+      "file": "assets/fonts/TitanOne-Regular.ttf",
+      "bytes": 52188,
+      "sha256": "c14c958677babb78649790ac2e998cea5cb940710aeb044e308cd79ee74a95bd",
+      "source": "https://fonts.gstatic.com/s/titanone/v17/mFTzWbsGxbbS_J5cQcjykw.ttf"
+    },
+    {
+      "file": "assets/fonts/OFL-Nunito.txt",
+      "bytes": 4385,
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/nunito/OFL.txt"
+    },
+    {
+      "file": "assets/fonts/OFL-TitanOne.txt",
+      "bytes": 4418,
+      "sha256": "61be7c29f4835e2be7243db12213d75d53ff028f29f4b493212a1688b1d3a1ba",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/titanone/OFL.txt"
+    },
+    {
+      "file": "assets/fonts/fonts.css",
+      "bytes": 404604,
+      "sha256": "c6678fa218749948591724374f83a8170b705521e891295a7789586f55979dd3",
+      "source": "Embedded, unmodified TTFs listed above"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "generator": "scripts/generate-sounds.mjs",
+  "license": "CC0-1.0",
+  "encoding": "MPEG Layer III, 44100 Hz, mono, 64 kbit/s",
+  "encoder": "ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers",
+  "totalBytes": 32797,
+  "files": [
+    {
+      "file": "tap.mp3",
+      "bytes": 1252,
+      "seconds": 0.1,
+      "sha256": "e978994641b674cc8077cb5fe13fc8b6d699bae7c776a1a4687e746ed07f7395",
+      "description": "Soft ascending tile pop"
+    },
+    {
+      "file": "correct.mp3",
+      "bytes": 3969,
+      "seconds": 0.43,
+      "sha256": "6fbe14c99f28c5eeb4f754cd07495203da7c2197c0722ede93609a97676ad2fb",
+      "description": "Bright two-note confirmation"
+    },
+    {
+      "file": "wrong.mp3",
+      "bytes": 2924,
+      "seconds": 0.3,
+      "sha256": "fc3588f7e677fc3789e2e7738ec6f502aa66e4686f7fec2321ce398fc49f536c",
+      "description": "Gentle descending retry cue"
+    },
+    {
+      "file": "complete.mp3",
+      "bytes": 10239,
+      "seconds": 1.22,
+      "sha256": "2913dce53464280edf782a8301e334c1f0eb2d4c7cdc69f8b93b7e7f2c5f3281",
+      "description": "Short original four-note celebration"
+    },
+    {
+      "file": "tick.mp3",
+      "bytes": 1043,
+      "seconds": 0.075,
+      "sha256": "4d9f7696f5398cb507343fdfa1143f0b906bc010a39cf00e267ad9a386b055bf",
+      "description": "Quiet rounded timer tick"
+    },
+    {
+      "file": "swipe.mp3",
+      "bytes": 1879,
+      "seconds": 0.16,
+      "sha256": "e53715f6e918ec5d58d985e6294a1b5d32f9d020e7bcbaa8de66e16afe698659",
+      "description": "Airy short selection sweep"
+    },
+    {
+      "file": "bonus.mp3",
+      "bytes": 5223,
+      "seconds": 0.59,
+      "sha256": "291a53aa0829db7aa0c7b63867ac03f41244bc9c1d8e9cfaf07d72c0f45844b8",
+      "description": "Sparkling three-note reward"
+    },
+    {
+      "file": "over.mp3",
+      "bytes": 6268,
+      "seconds": 0.72,
+      "sha256": "ef372a912728aaf49275c95148c2057d73251f5b51efe695040fab00c044833c",
+      "description": "Soft descending end-of-round cue"
+    }
+  ]
+}

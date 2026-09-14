@@ -1,0 +1,18 @@
+Original APP_NAME sound effects: tap, correct, wrong, complete, tick, swipe,
+bonus, and over, together with their original synthesis definitions in
+scripts/generate-sounds.mjs.
+
+SPDX-License-Identifier: CC0-1.0
+
+To the extent possible under law, the creator of these original synthesized
+sound effects has waived all copyright and related or neighboring rights to
+them under the Creative Commons CC0 1.0 Universal public domain dedication.
+You may use, copy, modify, distribute, and sell these effects, including in
+commercial applications, without permission, attribution, or royalty payments.
+The effects are provided without warranty.
+
+Full legal terms: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+No third-party samples or recordings are incorporated. This dedication does not
+apply to the Google Fonts, the supplied artwork, ffmpeg, or other dependencies;
+those retain their own licenses. ffmpeg is a build tool and is not bundled.

@@ -1,0 +1,25 @@
+node_modules/
+.expo/
+dist/
+web-build/
+coverage/
+*.tsbuildinfo
+
+# Generated native projects; configuration lives in app.config.ts.
+/android/
+/ios/
+
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.p8
+*.p12
+*.mobileprovision
+credentials.json
+google-services.json
+GoogleService-Info.plist
+
+*.log
+.DS_Store
