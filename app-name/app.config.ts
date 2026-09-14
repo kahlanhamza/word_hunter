@@ -2,10 +2,10 @@ import type { ConfigContext, ExpoConfig } from 'expo/config';
 
 export default ({ config }: ConfigContext): ExpoConfig => {
   const production = process.env.APP_VARIANT === 'production' || process.env.EAS_BUILD_PROFILE === 'production';
-  const name = process.env.APP_NAME?.trim() || 'App Name (Dev)';
-  const packageId = process.env.PACKAGE_ID?.trim() || 'com.example.appname';
-  const androidAppId = process.env.ADMOB_ANDROID_APP_ID?.trim() || 'ca-app-pub-3940256099942544~3347511713';
-  const iosAppId = process.env.ADMOB_IOS_APP_ID?.trim() || 'ca-app-pub-3940256099942544~1458002511';
+  const name = 'APP_NAME';
+  const packageId = 'com.yourname.appname';
+  const androidAppId = '__ADMOB_APP_ID__';
+  const iosAppId = '__ADMOB_APP_ID__';
 
   if (production) {
     const placeholder = /placeholder|change[ _-]?me|replace[ _-]?me|your[ _-]?(app|package|company)|[<>]/i;
