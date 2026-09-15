@@ -2,10 +2,10 @@ import type { ConfigContext, ExpoConfig } from 'expo/config';
 
 export default ({ config }: ConfigContext): ExpoConfig => {
   const production = process.env.APP_VARIANT === 'production' || process.env.EAS_BUILD_PROFILE === 'production';
-  const name = 'APP_NAME';
-  const packageId = 'com.yourname.appname';
-  const androidAppId = '__ADMOB_APP_ID__';
-  const iosAppId = '__ADMOB_APP_ID__';
+  const name = process.env.APP_NAME?.trim() || 'Word Hunter (Dev)';
+  const packageId = process.env.PACKAGE_ID?.trim() || 'com.example.wordhunter';
+  const androidAppId = process.env.ADMOB_ANDROID_APP_ID?.trim() || 'ca-app-pub-3940256099942544~3347511713';
+  const iosAppId = process.env.ADMOB_IOS_APP_ID?.trim() || 'ca-app-pub-3940256099942544~1458002511';
 
   if (production) {
     const placeholder = /placeholder|change[ _-]?me|replace[ _-]?me|your[ _-]?(app|package|company)|[<>]/i;
@@ -34,7 +34,7 @@ export default ({ config }: ConfigContext): ExpoConfig => {
     ...config,
     name,
     slug: 'app-name',
-    version: '1.0.0',
+    version: '1.0.1',
     scheme: 'appname',
     orientation: 'portrait',
     userInterfaceStyle: 'light',
@@ -43,7 +43,7 @@ export default ({ config }: ConfigContext): ExpoConfig => {
     updates: { enabled: false },
     android: {
       package: packageId,
-      versionCode: 1,
+      versionCode: 2,
       adaptiveIcon: {
         foregroundImage: './assets/adaptive-icon.png',
         backgroundColor: '#EFE6FA',
@@ -56,7 +56,7 @@ export default ({ config }: ConfigContext): ExpoConfig => {
     },
     ios: {
       bundleIdentifier: packageId,
-      buildNumber: '1',
+      buildNumber: '2',
       supportsTablet: false,
     },
     web: { bundler: 'metro', output: 'single', favicon: './assets/icon.png' },
